@@ -1,41 +1,41 @@
 let projectArray = [
   1,
-  'https://example.com',
-  'Project Title',
-  'Project description.',
+  'http://arcg.is/2mK7lpE',
+  'Book Assignment 01',
+  'Three points of interest pertaining to my life.',
   true
 ]
 
 let projectObject = {
   id: 1,
-  url: 'https://example.com',
-  title: 'Project Title',
-  desc: 'Project description.',
+  url: 'http://arcg.is/2mK7lpE',
+  title: 'Book Assignment 01',
+  desc: 'Three points of interest pertaining to my life.',
   thumb: true,
 }
 
 let projectArray = [
   1,
-  'https://example.com',
-  'Project Title',
-  'Project description.',
+  'http://arcg.is/2mK7lpE',
+  'Book Assignment 01',
+  'Three points of interest pertaining to my life.',
   true,
   ['keyword here', 'buzzword', 'another keyword']
 ]
 
 let projectObject = {
   id: 1,
-  url: 'https://example.com',
-  title: 'Project Title',
-  desc: 'Project description.',
+  url: 'http://arcg.is/2mK7lpE',
+  title: 'Book Assignment 01',
+  desc: 'Three points of interest pertaining to my life.',
   thumb: true,
   keywords: [
     'keyword here',
-    'buzzword', 
+    'buzzword',
     'another keyword'
   ]
 }
 
 console.log(projectArray[2])
 console.log(projectObject.title)
-console.log(projectObject["title"])
+console.log(projectObject["Book Assignment 01"])
