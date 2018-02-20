@@ -3,16 +3,14 @@ let projectArray = [
   'http://arcg.is/2mK7lpE',
   'Book Assignment 01',
   'Three points of interest pertaining to my life.',
-  true
-]
+  true ]
 
 let projectObject = {
   id: 1,
   url: 'http://arcg.is/2mK7lpE',
   title: 'Book Assignment 01',
   desc: 'Three points of interest pertaining to my life.',
-  thumb: true,
-}
+  thumb: true, }
 
 let projectArray = [
   1,
@@ -20,8 +18,7 @@ let projectArray = [
   'Book Assignment 01',
   'Three points of interest pertaining to my life.',
   true,
-  ['keyword here', 'buzzword', 'another keyword']
-]
+  ['Book Assignment', 'Assignment', 'Code Assignment4'] ]
 
 let projectObject = {
   id: 1,
@@ -29,13 +26,8 @@ let projectObject = {
   title: 'Book Assignment 01',
   desc: 'Three points of interest pertaining to my life.',
   thumb: true,
-  keywords: [
-    'keyword here',
-    'buzzword',
-    'another keyword'
-  ]
-}
+  keywords: ['Book Assignment', 'Assignment', 'Code Assignment4'] }
 
-console.log(projectArray[2])
+console.log(projectArray[1])
 console.log(projectObject.title)
 console.log(projectObject["Book Assignment 01"])
