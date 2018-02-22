@@ -29,5 +29,5 @@ let projectObject2 = {
   keywords: ['Book Assignment', 'Assignment', 'Code Assignment4'] }
 
 console.log(projectArray1[1])
-console.log(projectObject.title)
-console.log(projectObject["Book Assignment 01"])
+console.log(projectObject1.title)
+console.log(projectObject1["Book Assignment 01"])
