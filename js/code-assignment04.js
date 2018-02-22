@@ -13,18 +13,18 @@ let projectObject = {
   thumb: true, }
 
 let projectArray = [
-  1,
-  'http://arcg.is/2mK7lpE',
-  'Book Assignment 01',
-  'Three points of interest pertaining to my life.',
+  2,
+  'http://www.arcgis.com/apps/View/index.html?appid=56470d3e779e4e8bb6ad3a849ff7b382',
+  'Book Assignment 02',
+  'World map is updated weekly with earthquakes.',
   true,
   ['Book Assignment', 'Assignment', 'Code Assignment4'] ]
 
 let projectObject = {
-  id: 1,
-  url: 'http://arcg.is/2mK7lpE',
-  title: 'Book Assignment 01',
-  desc: 'Three points of interest pertaining to my life.',
+  id: 2,
+  url: 'http://www.arcgis.com/apps/View/index.html?appid=56470d3e779e4e8bb6ad3a849ff7b382',
+  title: 'Book Assignment 02',
+  desc: 'World map is updated weekly with earthquakes.',
   thumb: true,
   keywords: ['Book Assignment', 'Assignment', 'Code Assignment4'] }
 
