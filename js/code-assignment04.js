@@ -18,7 +18,7 @@ let projectArray2 = [
   'Book Assignment 02',
   'World map is updated weekly with earthquakes.',
   true,
-  ['Book Assignment', 'Assignment', 'Code Assignment4'] ]
+  ['Earthquakes', 'World Maps', 'Code Assignment4'] ]
 
 let projectObject2 = {
   id: 2,
@@ -26,7 +26,7 @@ let projectObject2 = {
   title: 'Book Assignment 02',
   desc: 'World map is updated weekly with earthquakes.',
   thumb: true,
-  keywords: ['Book Assignment', 'Assignment', 'Code Assignment4'] }
+  keywords: ['Earthquakes', 'World Maps', 'Code Assignment4'] }
 
 console.log(projectArray1[1])
 console.log(projectObject1.title)
