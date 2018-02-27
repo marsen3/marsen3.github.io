@@ -20,5 +20,7 @@ projectData[1] = {
 for (let i = 0; i < projectData.length; i++) {
   if (projectData[i].thumb === true) {
     console.log('Capture' + projectData[i].id + '.png')
-    }
+  } else {
+    console.log('no-preview.png')
   }
+}
