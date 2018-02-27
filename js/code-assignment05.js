@@ -5,7 +5,7 @@ let projects = [{
   desc: 'Three points of interest pertaining to my life.',
   thumb: true,
   keywords: [New Orleans, Cities, Interest]
-  },
+  }],
 
 
   id: 2,
