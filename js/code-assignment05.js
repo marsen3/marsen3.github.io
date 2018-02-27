@@ -16,5 +16,5 @@ projectData[1]
   thumb: true,
   keywords: ['Earthquakes', 'World Maps', 'Code Assignment4'] }
 
-for (let i = 0; i <projectD.length; i++) {
-console.log('Capture' + projectData[i].id + '.png') }
+for (let i = 0; i < projectData.length; i++) {
+  console.log('Capture' + projectData[i].id + '.png') }
