@@ -18,6 +18,7 @@ projectData[1] = {
   keywords: ['Earthquakes', 'World Maps', 'Code Assignment4'] }
 
 for (let i = 0; i < projectData.length; i++) {
-  if (1 < 5) {
-    console.log('Capture' + projectData[i].id + '.png') }
+  if (projectData[i].thumb === true) {
+    console.log('Capture' + projectData[i].id + '.png')
+    }
   }
