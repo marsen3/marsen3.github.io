@@ -24,3 +24,11 @@ for (let i = 0; i < projectData.length; i++) {
     console.log('no-preview.png')
   }
 }
+
+for (let i = 0; i < projectData.length; i++) {
+  if (projectData[i].title === '') {
+    console.log('No title')
+  } else {
+    console.log(projectData[i].title)
+  }
+}
