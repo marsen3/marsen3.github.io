@@ -1,4 +1,6 @@
-projectData[0] = {
+let projectData = []
+
+  projectData[0] = {
   id: 1,
   url: 'http://arcg.is/2mK7lpE',
   title: 'Book Assignment 01',
