@@ -9,7 +9,7 @@ function createTitle (title) {
 }
 
 function createThumbnail (thumb, id) {
-  if (thumb === true) {
+  if (projectData[i].thumb === true) {
     console.log('Capture' + projectData[i].id + '.png')
   } else {
     console.log('no-preview.png')
