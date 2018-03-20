@@ -1,9 +1,3 @@
-for (let i = 0; i < projectData.length; i++) {
-  createTitle(projectData[i].title)
-  createThumbnail (projectData[i].thumb, projectData[i].id)
-}
-
-
 function createTitle (title) {
   console.log('Title' + title)
 }
