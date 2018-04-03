@@ -30,6 +30,6 @@ let polygon = L.polygon([
 polygon.bindPopup('Fairgrounds')
 marker.bindPopup('City Park')
 
-mymap.on('click', function (event) {
+MattMap.on('click', function (event) {
   console.log('You clicked the map at ' + event.latlng)
 })
