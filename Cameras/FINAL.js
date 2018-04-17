@@ -20,6 +20,17 @@ var greenIcon = L.icon({
 L.marker([29.928687,-89.719441], {icon: greenIcon}).addTo(MattMap);
 L.marker([29.928687,-89.719441], {icon: greenIcon}).addTo(MattMap).bindPopup("This Map Displays the New Orleans Police Department's Districts.");
 
+L.control.layers(MattBasemaps).addTo(MattMap)
+var greenIcon1 = L.icon({
+    iconUrl: 'police1.png',
+    iconSize:     [50, 50], // size of the icon
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+L.marker([29.993258,-90.098182], {icon: greenIcon1}).addTo(MattMap);
+L.marker([29.993258,-90.098182], {icon: greenIcon1}).addTo(MattMap).bindPopup("This will take you to my portfolio.<br> https://marsen3.github.io");
+
+
 MattGeojsonStyle = function (feature){
   let zone = feature.properties.district
   let grave = 'black'
